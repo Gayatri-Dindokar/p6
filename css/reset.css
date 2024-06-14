@@ -1,0 +1,181 @@
+/* Reset css start */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a {
+    text-transform: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover, a:active {
+    outline: 0;
+    color: #a8080f;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Crimson Text', serif;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.83em;
+}
+
+h6 {
+    font-size: 0.75em;
+}
+
+small {
+    font-size: 75%;
+}
+
+dl, menu, ol, ul {
+    margin: 0;
+}
+
+dd {
+    margin: 0;
+}
+
+header ul, footer ul {
+    list-style: none;
+    list-style-image: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border: 0 none;
+    -ms-interpolation-mode: bicubic;
+}
+
+figure, form {
+    margin: 0;
+}
+
+input, textarea, select, button {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    *vertical-align: middle;
+}
+
+button, input {
+    line-height: normal;
+}
+
+textarea {
+    height: auto;
+    vertical-align: top;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    *overflow: visible;
+}
+
+button[disabled], input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    *height: 13px;
+    *width: 13px;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+blockquote {
+    margin: 0px;
+}
+
+blockquote input[type="search"]::-webkit-search-decoration,
+  blockquote input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clr, .clear {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    
+
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    font-size: 12px;
+}
+.align_left{
+    float: left
+}
+
+.align_right{
+    float: right
+}

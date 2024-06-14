@@ -1,0 +1,85 @@
+@font-face{
+    font-family:"DIN Bold";
+    src:url("fonts/DIN-Bold.eot");
+    src:url("fonts/DIN-Bold.eot?#iefix") format("embedded-opentype"),url("fonts/DIN-Bold.woff") format("ttf"),url("fonts/DIN-Bold.ttf") format("truetype"),url("fonts/DIN-Bold.svg#svgFontName") format("svg");
+    font-display:swap
+}
+@font-face{
+    font-family:"Fontin-Italic";
+    src:url("fonts/Fontin-Italic.eot");
+    src:url("fonts/Fontin-Italic.eot?#iefix") format("embedded-opentype"),url("fonts/Fontin-Italic.woff") format("ttf"),url("fonts/Fontin-Italic.ttf") format("truetype"),url("fonts/Fontin-Italic.svg#svgFontName") format("svg");
+    font-display:swap
+}
+@font-face{
+    font-family:"DIN MediumAlternate";
+    src:url("fonts/DIN-MediumAlternate.eot");
+    src:url("fonts/DIN-MediumAlternate.eot?#iefix") format("embedded-opentype"),url("fonts/DIN-MediumAlternate.woff") format("ttf"),url("fonts/DIN-MediumAlternate.ttf") format("truetype"),url("fonts/DIN-MediumAlternate.svg#svgFontName") format("svg");
+    font-display:swap
+}
+body{
+    margin: 0;
+    padding: 0;
+    color:#2e2e2e;
+    font-family:Arial,San-serif;
+    font-size:100%;
+    font-weight:normal;
+    width:100%;
+    height:100%;
+    overflow-x:hidden;
+    background:#fff url(../img/bg_body_top1.png) 0px 0px repeat !important;
+}
+.container{
+    max-width:960px;
+    margin:0 auto;
+    /* background-color: red; */
+}
+.navbar ul li{
+    padding: 0px 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+    font-family: "DIN Bold";
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+}
+/* .custom-logo-link img {
+    width: 15% !important;
+  
+    height: auto; 
+} */
+.px_header{
+    border-bottom: 1px solid #e2e1e1;
+}
+
+/* footer.php */
+.wp-block-heading{
+    color:#c01a20;
+}
+.wp-block-button__link {
+    color:#c01a20 !important;
+border-radius: initial;
+}
+.px_footer p a  {
+    color: #a8080f !important;
+    }
+    /* .px_footer  li  {
+    color: #a8080f !important;
+    } */
+
+    .wp-block-social-links{
+        margin-top: 18px;
+    }
+    .wp-block-social-links:not(.is-style-logos-only) .wp-social-link{
+            background-color:#a8080f ;
+            color: #fff;
+            font-size: 23px;
+            font-family: "Font Awesome 6 Brands";
+            display: flex;
+            justify-content: flex-start;
+            font-size: 24px !important;
+            align-items: center;
+
+    }
